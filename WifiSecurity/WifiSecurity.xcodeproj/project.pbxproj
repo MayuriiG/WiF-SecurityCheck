@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE047B4E2B22F38D009392A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B4D2B22F38D009392A9 /* AppDelegate.swift */; };
+		AE047B502B22F38D009392A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B4F2B22F38D009392A9 /* SceneDelegate.swift */; };
+		AE047B522B22F38D009392A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B512B22F38D009392A9 /* ViewController.swift */; };
+		AE047B552B22F38D009392A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE047B532B22F38D009392A9 /* Main.storyboard */; };
+		AE047B572B22F38E009392A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE047B562B22F38E009392A9 /* Assets.xcassets */; };
+		AE047B5A2B22F38E009392A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE047B582B22F38E009392A9 /* LaunchScreen.storyboard */; };
+		AE047B652B22F38E009392A9 /* WifiSecurityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B642B22F38E009392A9 /* WifiSecurityTests.swift */; };
+		AE047B6F2B22F38E009392A9 /* WifiSecurityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B6E2B22F38E009392A9 /* WifiSecurityUITests.swift */; };
+		AE047B712B22F38E009392A9 /* WifiSecurityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE047B702B22F38E009392A9 /* WifiSecurityUITestsLaunchTests.swift */; };
+		AE9F9CDB2B232ACD00B2FC03 /* jpeg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9F9CDA2B232ACD00B2FC03 /* jpeg.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE047B612B22F38E009392A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE047B422B22F38D009392A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE047B492B22F38D009392A9;
+			remoteInfo = WifiSecurity;
+		};
+		AE047B6B2B22F38E009392A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE047B422B22F38D009392A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE047B492B22F38D009392A9;
+			remoteInfo = WifiSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE047B4A2B22F38D009392A9 /* WifiSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE047B4D2B22F38D009392A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE047B4F2B22F38D009392A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE047B512B22F38D009392A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE047B542B22F38D009392A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE047B562B22F38E009392A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE047B592B22F38E009392A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE047B5B2B22F38E009392A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE047B602B22F38E009392A9 /* WifiSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE047B642B22F38E009392A9 /* WifiSecurityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSecurityTests.swift; sourceTree = "<group>"; };
+		AE047B6A2B22F38E009392A9 /* WifiSecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiSecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE047B6E2B22F38E009392A9 /* WifiSecurityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSecurityUITests.swift; sourceTree = "<group>"; };
+		AE047B702B22F38E009392A9 /* WifiSecurityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSecurityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE9F9CD72B232A2F00B2FC03 /* 45.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = 45.avif; sourceTree = "<group>"; };
+		AE9F9CD92B232A7B00B2FC03 /* 12.avif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 12.avif; path = ../../../Downloads/12.avif; sourceTree = "<group>"; };
+		AE9F9CDA2B232ACD00B2FC03 /* jpeg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpeg.jpeg; sourceTree = "<group>"; };
+		AE9F9CDE2B23346100B2FC03 /* WifiSecurity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WifiSecurity.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE047B472B22F38D009392A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B5D2B22F38E009392A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B672B22F38E009392A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE047B412B22F38D009392A9 = {
+			isa = PBXGroup;
+			children = (
+				AE047B4C2B22F38D009392A9 /* WifiSecurity */,
+				AE047B632B22F38E009392A9 /* WifiSecurityTests */,
+				AE047B6D2B22F38E009392A9 /* WifiSecurityUITests */,
+				AE047B4B2B22F38D009392A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE047B4B2B22F38D009392A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE047B4A2B22F38D009392A9 /* WifiSecurity.app */,
+				AE047B602B22F38E009392A9 /* WifiSecurityTests.xctest */,
+				AE047B6A2B22F38E009392A9 /* WifiSecurityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE047B4C2B22F38D009392A9 /* WifiSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				AE9F9CDE2B23346100B2FC03 /* WifiSecurity.entitlements */,
+				AE047B4D2B22F38D009392A9 /* AppDelegate.swift */,
+				AE047B4F2B22F38D009392A9 /* SceneDelegate.swift */,
+				AE047B512B22F38D009392A9 /* ViewController.swift */,
+				AE047B532B22F38D009392A9 /* Main.storyboard */,
+				AE9F9CDA2B232ACD00B2FC03 /* jpeg.jpeg */,
+				AE9F9CD92B232A7B00B2FC03 /* 12.avif */,
+				AE9F9CD72B232A2F00B2FC03 /* 45.avif */,
+				AE047B562B22F38E009392A9 /* Assets.xcassets */,
+				AE047B582B22F38E009392A9 /* LaunchScreen.storyboard */,
+				AE047B5B2B22F38E009392A9 /* Info.plist */,
+			);
+			path = WifiSecurity;
+			sourceTree = "<group>";
+		};
+		AE047B632B22F38E009392A9 /* WifiSecurityTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE047B642B22F38E009392A9 /* WifiSecurityTests.swift */,
+			);
+			path = WifiSecurityTests;
+			sourceTree = "<group>";
+		};
+		AE047B6D2B22F38E009392A9 /* WifiSecurityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE047B6E2B22F38E009392A9 /* WifiSecurityUITests.swift */,
+				AE047B702B22F38E009392A9 /* WifiSecurityUITestsLaunchTests.swift */,
+			);
+			path = WifiSecurityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE047B492B22F38D009392A9 /* WifiSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE047B742B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurity" */;
+			buildPhases = (
+				AE047B462B22F38D009392A9 /* Sources */,
+				AE047B472B22F38D009392A9 /* Frameworks */,
+				AE047B482B22F38D009392A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiSecurity;
+			productName = WifiSecurity;
+			productReference = AE047B4A2B22F38D009392A9 /* WifiSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE047B5F2B22F38E009392A9 /* WifiSecurityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE047B772B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurityTests" */;
+			buildPhases = (
+				AE047B5C2B22F38E009392A9 /* Sources */,
+				AE047B5D2B22F38E009392A9 /* Frameworks */,
+				AE047B5E2B22F38E009392A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE047B622B22F38E009392A9 /* PBXTargetDependency */,
+			);
+			name = WifiSecurityTests;
+			productName = WifiSecurityTests;
+			productReference = AE047B602B22F38E009392A9 /* WifiSecurityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE047B692B22F38E009392A9 /* WifiSecurityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE047B7A2B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurityUITests" */;
+			buildPhases = (
+				AE047B662B22F38E009392A9 /* Sources */,
+				AE047B672B22F38E009392A9 /* Frameworks */,
+				AE047B682B22F38E009392A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE047B6C2B22F38E009392A9 /* PBXTargetDependency */,
+			);
+			name = WifiSecurityUITests;
+			productName = WifiSecurityUITests;
+			productReference = AE047B6A2B22F38E009392A9 /* WifiSecurityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE047B422B22F38D009392A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AE047B492B22F38D009392A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AE047B5F2B22F38E009392A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE047B492B22F38D009392A9;
+					};
+					AE047B692B22F38E009392A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AE047B492B22F38D009392A9;
+					};
+				};
+			};
+			buildConfigurationList = AE047B452B22F38D009392A9 /* Build configuration list for PBXProject "WifiSecurity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE047B412B22F38D009392A9;
+			productRefGroup = AE047B4B2B22F38D009392A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE047B492B22F38D009392A9 /* WifiSecurity */,
+				AE047B5F2B22F38E009392A9 /* WifiSecurityTests */,
+				AE047B692B22F38E009392A9 /* WifiSecurityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE047B482B22F38D009392A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE047B5A2B22F38E009392A9 /* LaunchScreen.storyboard in Resources */,
+				AE047B572B22F38E009392A9 /* Assets.xcassets in Resources */,
+				AE047B552B22F38D009392A9 /* Main.storyboard in Resources */,
+				AE9F9CDB2B232ACD00B2FC03 /* jpeg.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B5E2B22F38E009392A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B682B22F38E009392A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE047B462B22F38D009392A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE047B522B22F38D009392A9 /* ViewController.swift in Sources */,
+				AE047B4E2B22F38D009392A9 /* AppDelegate.swift in Sources */,
+				AE047B502B22F38D009392A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B5C2B22F38E009392A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE047B652B22F38E009392A9 /* WifiSecurityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE047B662B22F38E009392A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE047B6F2B22F38E009392A9 /* WifiSecurityUITests.swift in Sources */,
+				AE047B712B22F38E009392A9 /* WifiSecurityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE047B622B22F38E009392A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE047B492B22F38D009392A9 /* WifiSecurity */;
+			targetProxy = AE047B612B22F38E009392A9 /* PBXContainerItemProxy */;
+		};
+		AE047B6C2B22F38E009392A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE047B492B22F38D009392A9 /* WifiSecurity */;
+			targetProxy = AE047B6B2B22F38E009392A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE047B532B22F38D009392A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE047B542B22F38D009392A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE047B582B22F38E009392A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE047B592B22F38E009392A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE047B722B22F38E009392A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE047B732B22F38E009392A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE047B752B22F38E009392A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				CODE_SIGN_ENTITLEMENTS = WifiSecurity/WifiSecurity.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WifiSecurity/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = xxx;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = COM.DEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE047B762B22F38E009392A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				CODE_SIGN_ENTITLEMENTS = WifiSecurity/WifiSecurity.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WifiSecurity/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location Access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = xxx;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = COM.DEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE047B782B22F38E009392A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTD49Y4SUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.file.WifiSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiSecurity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WifiSecurity";
+			};
+			name = Debug;
+		};
+		AE047B792B22F38E009392A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTD49Y4SUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.file.WifiSecurityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiSecurity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WifiSecurity";
+			};
+			name = Release;
+		};
+		AE047B7B2B22F38E009392A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTD49Y4SUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.file.WifiSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WifiSecurity;
+			};
+			name = Debug;
+		};
+		AE047B7C2B22F38E009392A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTD49Y4SUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.file.WifiSecurityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WifiSecurity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE047B452B22F38D009392A9 /* Build configuration list for PBXProject "WifiSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE047B722B22F38E009392A9 /* Debug */,
+				AE047B732B22F38E009392A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE047B742B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE047B752B22F38E009392A9 /* Debug */,
+				AE047B762B22F38E009392A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE047B772B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE047B782B22F38E009392A9 /* Debug */,
+				AE047B792B22F38E009392A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE047B7A2B22F38E009392A9 /* Build configuration list for PBXNativeTarget "WifiSecurityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE047B7B2B22F38E009392A9 /* Debug */,
+				AE047B7C2B22F38E009392A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE047B422B22F38D009392A9 /* Project object */;
+}

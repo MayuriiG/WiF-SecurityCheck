@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F76BB4B1-2D92-4D5F-84E7-6F21ECE065C6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "752E54EB-8FA2-4ECF-97EE-A8A914E6838F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WifiSecurity/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "callLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "752E54EB-8FA2-4ECF-97EE-A8A914E6838F - f68fa021c848995b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WifiSecurity.ViewController.callLocation() -&gt; ()"
+                  moduleName = "WifiSecurity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbiitfo/Desktop/WifiSecurity/WifiSecurity/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "752E54EB-8FA2-4ECF-97EE-A8A914E6838F - f68fa021c8489934"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WifiSecurity.ViewController.callLocation() -&gt; ()"
+                  moduleName = "WifiSecurity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbiitfo/Desktop/WifiSecurity/WifiSecurity/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4D8A9A8-5526-410F-A202-7BCF2E513F20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WifiSecurity/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "callLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4D8A9A8-5526-410F-A202-7BCF2E513F20 - f68fa021c8489bc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WifiSecurity.ViewController.callLocation() -&gt; ()"
+                  moduleName = "WifiSecurity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbiitfo/Desktop/WifiSecurity/WifiSecurity/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "E4D8A9A8-5526-410F-A202-7BCF2E513F20 - 4de562fe260e36e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 () -&gt; __C.CLAuthorizationStatus in closure #1 () -&gt; () in WifiSecurity.ViewController.callLocation() -&gt; ()"
+                  moduleName = "WifiSecurity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sbiitfo/Desktop/WifiSecurity/WifiSecurity/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
